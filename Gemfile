@@ -60,5 +60,5 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem 'yaml_db'
+  gem "yaml_db"
 end
