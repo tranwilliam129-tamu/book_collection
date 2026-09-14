@@ -1,0 +1,11 @@
+{
+  "name": "Book Collection",
+  "description": "CSCE 431 Book Collection 3 Review App",
+  "environments": {
+    "review": {
+      "addons": [
+        "heroku-postgresql:essential-0"
+      ]
+    }
+  }
+}
