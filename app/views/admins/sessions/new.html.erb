@@ -1,0 +1,7 @@
+<h2>You're Logged out! Log in to the Dashboard!!</h2>
+
+<%= button_to admin_google_oauth2_omniauth_authorize_path,
+              method: :post,
+              data: { turbo: "false" } do %>
+  Google
+<% end %>

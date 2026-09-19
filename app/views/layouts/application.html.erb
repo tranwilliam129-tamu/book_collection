@@ -22,7 +22,13 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
+<body>
+  <% if flash.any? %>
+    <% flash.each do |key, value| %>
+      <p class="flash flash__<%= key %>"><%= value %></p>
+    <% end %>
+  <% end %>
+
+  <%= yield %>
+</body>
 </html>
